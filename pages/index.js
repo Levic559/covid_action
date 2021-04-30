@@ -6,7 +6,7 @@ import AboutUs from '../comps/aboutUs'
 import React, { useState } from "react"
 import {useSpring, animated} from 'react-spring'
 import {config} from 'react-spring'
-import FlyBird from '../comps/FlyBird'
+
 
 const subtext={
   aboutus:{
