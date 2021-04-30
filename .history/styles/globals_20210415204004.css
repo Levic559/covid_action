@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Archivo', sans-serif;
+}
+
+.page{
+  display: flex;
+  justify-content: center;
+  width:414px;
+  height:896px;
+  /* background: url("/bgc.jfif");
+  background-position:-150px 60px;
+  background-size: 175% 100%;
+  opacity:.7; */
+}
+.bgc{
+  width:414px;
+  height:896px;
+  background: url("/bgc.jfif");
+  background-position:-200px 60px;
+  background-size: 200% 125%;
+  opacity:.25;
+}
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo{
+ margin-top:175px;
+ z-index: 1;
+ position: absolute;
+ 
+}
+.logotext{
+  margin-top:0px;
+  z-index: 1;
+  position: absolute;
+  
+ }
+.button{
+  margin-top:700px;
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+ }
+ .rooter{
+  margin-top:860px;
+  position: absolute;
+  color: grey;
+ }
+ .Subtext{
+  margin-top:450px;
+  position: absolute;
+  font-size: 20px;
+  font-weight: 900;
+  /* font-style: bold; */
+  text-shadow: 5px 5px 5px grey;
+ }
+ .aboutUs{
+   position: absolute;
+  margin-top:250px;
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+ }

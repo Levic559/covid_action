@@ -1,0 +1,84 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layer {
+    width: 414px;
+    height: 896px;
+}
+
+.upper {
+    z-index: 0;
+    position: relative;
+    left: 212px;
+}
+
+.lower {
+    z-index: -1;
+    position: relative;
+    right: 212px;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.page {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #F2E4D4;
+    align-items: center;
+}
+
+.messagebox {
+    width: 376px;
+    height: 480px;
+    border-radius: 20px;
+}
+
+.triangle {
+    width: 58px;
+    height: 50px;
+    position: relative;
+    right: 100px;
+    background-color: "..";
+}
+
+.mascotcontainer{
+
+}
+
+
+
+/* dont cut me off im talking*/
+
+/* you had a temper tantrum*/
+
+/*i dont understand how you think its fair for you to blow up on me in front of everyone one*/
+
+/*its embarassing as fuck and the only reason why i talked back was because i felt something off during the situation*/
+
+/*which was when you were blowing up all over me*/
+
+/*and i get it i fucked up but that doesnt mean you can just call me the fuck out for everyone to see  just becuase you feel upset*/
+
+/*and honestly i wouldve taken it on the chin and not talked back if you just messaged me privately and camly*/
+
+/* becuase you have before and ive listened. you dont need to talk to me like im a  child*/
+
+/* its just ironic you were preaching about how we should act like adults when you couldnt even contorl your emotions.*/
