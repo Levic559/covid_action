@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import {useRouter} from 'next/router';
-import BirdLogo from '../BirdLogo';
 import {AiOutlineHome} from 'react-icons/ai'
 import AppLogo from'../AppLogo'
 
