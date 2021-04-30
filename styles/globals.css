@@ -30,14 +30,13 @@ body {
   
 }
 .bgc2{
-  width:414px;
-  height:896px;
-  background: url("/bgc-02.svg");
-  background-position:-200px 60px;
-  background-size: 200% 125%;
+  width: 1200px;
+  height:100vh;
+  margin:0 auto;
+  background-image: url("/bgc-02.svg");
+  background-repeat: no-repeat;
   opacity:1;
-  overflow: hidden;
-  z-index: 1;
+  z-index: -1;
 }
 
 .wrapper{
@@ -52,8 +51,6 @@ body {
 margin-top:200px;
  position: absolute;
  z-index: 1;
- 
- 
 }
 .logotext{
   margin-top:0px;

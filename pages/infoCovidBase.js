@@ -15,15 +15,16 @@ const MainCont = styled.div `
   display: flex;
   justify-content: center;
   align-items: center;
+  
 `
 
 const UpperLayer = styled.div `
-  width: 414px;
-  height: 896px;
+width: 100vw;
+height: 100vh;
   overflow: hidden;
   z-index: 0;
   position: relative;
-  left: 212px;
+  
 `
 
 const LowerLayer = styled.div`
@@ -32,7 +33,7 @@ const LowerLayer = styled.div`
   overflow: hidden;
   z-index: -1;
   position: relative;
-  right: 202px;
+ 
 `
 const SideBar = styled.div `
   display: flex;
@@ -93,28 +94,29 @@ const OpenMenu = () => {
 }
 
   console.log(menustate, right)
-  return (<MainCont>
-    <UpperLayer>
-      <Page right={right}>
+  return (<MainCont  >
+    <UpperLayer  >
+      <Page right={right} >
 
         <Banner text="Covid-19" onClick={OpenMenu} routeTo="/" />
         
-       <Optioncont>
+       <Optioncont  >
+       
            <div><Option src = "/1.svg" text = "General info" routeTo="/items/GInfo" /></div> 
            <div><Option src = "/2.svg" text = "Vaccineinfo"  routeTo="/items/VInfo"/></div> 
            <div><Option src = "/4.svg" text = "Government Policies" routeTo="/items/GovernInfo"/></div> 
            <div><Option src = "/3.svg" text = "Take Action" routeTo="/infoOptionsBase"/></div> 
         </Optioncont> 
-        
+        <div className="bgc2"> </div>
       </Page>
-    
+     
     </UpperLayer>
-
-    <LowerLayer>
+   
+    {/* <LowerLayer>
       <SideBar>
         <HamburgerMenu />
       </SideBar>
-    </LowerLayer>
+    </LowerLayer> */}
 
     
 

@@ -23,8 +23,8 @@ const Page = ({
     right=0,
     children
 }) => {
-    return <PageComponent right={right} className=" bgc2">
-        
+    return <PageComponent right={right}   >
+       
         {children}
         
         
